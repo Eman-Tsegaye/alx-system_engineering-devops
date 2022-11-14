@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# This script is displaying "Best School" 10 times,displays hi at the ninth point
+
+e=0
+while [ $e -lt 10 ]
+do
+        echo "Best School"
+        ((e++))
+	if [ $e == 9 ]
+	then
+		echo "Hi"
+	fi
+done
